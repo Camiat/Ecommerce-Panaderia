@@ -1,0 +1,76 @@
+.background-about{
+    background-image: url(https://probiotische-praxis.blog/wp-content/uploads/2021/12/Hanna-Shvets-shutterstock_1923446501-1024x677.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    min-height: 60vh;
+}
+
+.container-about h1{
+    margin-top: 0;
+    padding-top: 150px;
+    margin-right:500px ;
+    font-size: 32px;
+}
+    
+.historia{
+
+   text-align: center;
+   margin-top: 70px;
+   margin-left: 200px;
+   margin-right: 650px;
+   font-size: 20px;
+   padding-bottom: 240px;
+   text-align: left;
+}
+
+
+@media all and (max-width: 1485px) {
+    .background-about{
+        background-image: none;
+      
+    }
+    .container-about{
+       background-color:var(--color-dos);
+       width: 600px;
+       padding-bottom: 20px;
+       margin: 40px auto;
+      
+    }
+
+    .container-about h1{
+        padding-top: 40px;
+        font-size: 25px;
+        margin-left: 100px;
+        
+    }
+
+    .historia{
+        font-size: 15px;
+        border: 2px solid var(--color-tres);
+        width: fit-content;
+        margin:30px 100px;
+        padding: 10px;
+    }
+}
+
+@media all and (max-width: 700px) {
+  .container-about{
+    width: 500px;
+  }
+  .container-about h1{
+    font-size: 18px;
+    width: 200px;
+    margin-left: 50px;
+  }
+}
+
+@media all and (max-width: 604px) {
+    .container-about{
+      width: 300px;
+    }
+    .historia{
+        margin-left:20px ;
+        margin-right:20px ;
+      }
+  }
+

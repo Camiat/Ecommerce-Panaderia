@@ -1,0 +1,204 @@
+.registro{
+    background-image: url(https://i.pinimg.com/736x/77/28/37/772837a3344e4f3cc1ff265f70d7bd2b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 28vh; /* viewport height */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.container-registro{
+    margin-top: 40px;
+    padding-bottom: 150px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+
+
+.registro .registro-titulo {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px 0;
+    border-bottom: 1px solid var(--color-tres);
+}
+
+.container-registro form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.registro form label {
+    display: flex;
+    width: 310px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+
+.registro form input[type="password"],
+.registro form input[type="text"],
+.registro form input[type="email"] {
+    width: 300px;
+    height: 20px;
+    border: 1px solid #b3b5ba;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+.registro form small {
+    display: block;
+    margin-top: 5px;
+    color: red;
+    background-color: white;
+    padding: 2px;
+    margin-bottom: 5px;
+    width: fit-content;
+    
+}
+.small-error-password{
+    position: absolute;
+    width: 400px !important;
+}
+
+.registro form .btn-registro {
+
+    padding: 10px 20px;
+    background-color: var(--color-btn-login);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;/* Añade una transición suave para el color de fondo */
+    margin-top: 25px;
+    width: 250px;
+
+}
+
+.registro form .btn-registro:hover {
+    background-color: var(--color-dos);
+}
+
+.link-registro {
+    margin-top: 20px;
+    text-align: center;
+   
+}
+
+.link-registro button{
+    border: none;
+    background: none; 
+    text-decoration: underline;
+    color: blueviolet;
+    cursor: pointer;
+    
+}
+
+.eye-password-registro {
+    position: absolute;
+    right: 10px;
+    bottom: 17px; 
+    
+}
+
+.div-password {
+    position: relative;
+}
+
+@media all and (max-width: 991px){
+  .registro{
+    background-image: none;
+  }
+
+  .container-registro form {
+    border: 2px solid var(--color-tres);
+    background-color: var(--color-uno);
+    padding: 20px 0;
+    
+  }
+
+  .container-registro form label{
+    background-color: var(--color-label);
+    padding: 2px;
+    border: 1px solid var(--color-tres);
+    width: fit-content;
+    height: 20px;
+    font-size:15px;
+  }
+
+  .registro .registro-titulo {
+    font-size: 25px;
+}
+
+.registro form input[type="password"],
+.registro form input[type="text"],
+.registro form input[type="email"] {
+    width: 200px;
+    height: 10px;
+}
+
+.registro form .btn-registro:active {
+    background-color: var(--color-dos);
+}
+.registro form .btn-registro {
+    font-size: 14px;
+    width: 230px;
+}
+.registro form small{
+    font-size: 12px;
+}
+.small-error-password{
+width: 250px !important;
+}
+.eye-password-registro{
+    width: 20px;
+}
+}
+
+@media all and (max-width: 604px){
+    .registro form input[type="password"],
+.registro form input[type="text"],
+.registro form input[type="email"] {
+    width: 150px;
+    height: 10px;
+    
+}
+
+.registro .registro-titulo {
+    font-size: 18px;
+}
+
+.registro form .btn-registro {
+    font-size: 10px;
+    width: 190px;
+}
+.container-registro form label{
+font-size:12px ;
+
+}
+.link-registro p{
+    font-size: 14px
+}
+
+.eye-password-registro {
+    width: 15px;
+}
+
+ .small-error-password{
+    font-size: 4px;
+    width: 180px !important;
+    margin-top: 1px;
+}
+}

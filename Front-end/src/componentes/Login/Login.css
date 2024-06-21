@@ -1,0 +1,182 @@
+.background{
+    background-image: url(https://i.pinimg.com/736x/77/28/37/772837a3344e4f3cc1ff265f70d7bd2b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh; 
+    background-position: center;
+}
+
+   .login {
+    display: flex;
+     /* Si necesito centrar contenido dentro del fondo */
+    align-items: center;
+     /* Centrar contenido verticalmente */
+    justify-content: center;
+     /* Centrar contenido horizontalmente */
+     
+    }
+
+
+.titulo-login{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 160px;  
+}
+
+.login form {
+    display: flex; 
+    flex-direction: column; 
+    width: 400px;
+    margin-top: 30px;
+    padding-left: 100px;
+}
+
+.login form label {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+ .login form input {
+    width: 300px; /* Establece el ancho al 100% del contenedor padre */
+    padding: 10px; 
+    margin-bottom: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    margin-top: 10px;
+    
+}
+
+ .login form button {
+    padding: 10px 20px; 
+    width: 300px;
+    background-color: var(--color-btn-login); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Añade una transición suave para el color de fondo */
+    margin-bottom: 18px;
+}
+
+ .login form button:hover {
+    background-color: var(--color-dos);
+}
+
+.eye-password {
+    position: absolute;
+    right: 120px;
+    top: 18px;
+}
+
+.div-password {
+    position: relative;
+}
+
+form small{
+    display: block;
+    background-color: white;
+    color: red;
+    width: fit-content;
+    margin-bottom: 10px;
+    border: 2px solid var(--color-tres);
+    padding: 2px 3px;
+}
+
+.link-login{
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.link-login button{
+    border: none;
+    background: none; 
+    text-decoration: underline;
+    color: blueviolet;
+    cursor: pointer;
+}
+@media all and (max-width: 1485px){
+    .background{
+        min-height: 80vh;
+    }
+
+}
+
+@media all and (max-width: 991px){
+  .background{
+    background-image: none;
+    min-height: 70vh;
+  }
+
+  .titulo-login{
+    font-size: 20px;
+    padding-top: 100px;
+   }
+
+.login form {
+    border: 2px solid var(--color-tres);
+    background-color: var(--color-uno);
+    padding-left: 90px;
+    margin-top: 30px;
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+.login form label {
+    font-size: 13px;
+    background-color: var(--color-label);
+    padding: 2px;
+    border: 1px solid var(--color-tres);
+    width: fit-content;
+    font-weight: bold;
+}
+
+.nombre-usuario{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.contrasenia{
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+
+.login form button:active {
+    background-color: var(--color-dos);
+}
+form small{
+    font-size: 12px;
+}
+
+.eye-password {
+    right:20px;
+    width: 20px;
+    margin-right:-10px ;
+}
+.link-login {
+    font-size: 14px;
+}
+}
+
+@media all and (max-width: 604px){
+    .login form .btn-Login{
+        width: 178px;
+        font-size: 12px;
+    }
+    .login form input {
+        height: 18px;
+        width: 178px;
+    }
+    
+    .eye-password {
+        right:3px;
+        width: 15px;
+        margin-top:-4px ;
+        margin-right: 8px;
+    }
+}

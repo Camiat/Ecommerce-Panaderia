@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  :root{
+    --color-uno:#87682dc7;
+    --color-dos:#eda62391;
+    --color-label:#dba13491;
+    --color-tres:brown;
+    --color-btn-login: #5e6c23;
+    --color-btn-carrito: green;
+  }

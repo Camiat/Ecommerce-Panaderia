@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "nombre": "Alfajor de Maicena",
+        "descripcion": "Alfajor de maicena, relleno de dulce de leche y cubierto con coco rallado.",
+        "precio": 50,
+        "imagen": "https://laaguada.com.ar/wp-content/uploads/2024/01/alfajores-de-maicena-facil-1200x900.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Tortillas Finas",
+        "descripcion": "Tortillas delgadas y crujientes",
+        "precio": 70,
+        "imagen": "https://img-global.cpcdn.com/recipes/b0b4b566571134ca/680x482cq70/tortillas-tucumanas-foto-principal.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Tortillas Gruesas",
+        "descripcion": "Tortillas gruesas y esponjosas",
+        "precio": 70,
+        "imagen": "https://i.pinimg.com/736x/f7/73/f8/f773f88924b41ee10ca1bd166f6c17c3.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Milhojas",
+        "descripcion": "Pastel compuesto por capas alternadas de hojaldre y dulce de leche, cubierto con azúcar glas.",
+        "precio": 120,
+        "imagen": "https://tronadorpanificados.com.ar/wp-content/uploads/2023/08/68.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Palmeritas",
+        "descripcion": "Exquisitas palmeritas de hojaldre, doradas y crujientes, con un delicado toque de azúcar. Perfectas para acompañar con una taza de té o café, estas deliciosas galletas son un clásico que encanta a todos.",
+        "precio": 40,
+        "imagen": "https://acdn.mitiendanube.com/stores/001/203/846/products/palmeritas-tante-sara-online-51-647f455882f20e92b615903013631635-1024-1024.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Cañoncitos de dulce de leche",
+        "descripcion": "Deliciosos y crujientes cañoncitos de hojaldre, rellenos con suave y cremoso dulce de leche. Perfectos para acompañar con un café o como un exquisito postre para cualquier ocasión.",
+        "precio": 150,
+        "imagen": "https://media.cdn.eldestapeweb.com/eldestape/082022/1659640597983/canoncitos-factura-jpg..webp?cw=1200&ch=675&extw=jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Medialuna Común",
+        "descripcion": "Medialunas de manteca, suaves y doradas",
+        "precio": 60,
+        "imagen": "https://saborargento.com.ar/wp-content/uploads/2023/05/Receta-de-Medialuna.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Pan Francés",
+        "descripcion": "Pan crujiente y dorado",
+        "precio": 50,
+        "imagen": "https://pandonjuan.com.ar/wp-content/uploads/2023/02/pan-frances.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Bombitas de crema",
+        "descripcion": "Deliciosas bombitas de masa choux rellenas con una suave y refrescante crema de limón. Estas exquisitas delicias combinan la textura ligera y aireada de la masa con el sabor cítrico y cremoso del relleno, perfectas para cualquier ocasión especial o simplemente para un antojo dulce.",
+        "precio": 55,
+        "imagen": "https://www.cocinavital.mx/wp-content/uploads/2022/01/bombas-rellenas-crema.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Chipa",
+        "descripcion": "Panecillos de queso típicos del noreste argentino, crujientes por fuera y esponjosos por dentro.",
+        "precio": 45,
+        "imagen": "https://img-global.cpcdn.com/recipes/9c9c7c0579ce0792/680x482cq70/chipa-super-facil-foto-principal.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Facturas de Membrillo y Crema",
+        "descripcion": "Facturas con membrillo y crema, suaves y deliciosas.",
+        "precio": 80,
+        "imagen": "https://pandonjuan.com.ar/wp-content/uploads/2023/03/factura-membrillo.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Medialunas con Dulce de Leche",
+        "descripcion": "Medialunas rellenas de dulce de leche",
+        "precio": 70,
+        "imagen": "https://static.wixstatic.com/media/99b81f_6ca870f50cea46cda3989cda6e685c7a~mv2_d_1920_1280_s_2.jpg/v1/fill/w_1600%2Ch_1066%2Cal_c%2Cq_90/file.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Biscochitos de Grasa",
+        "descripcion": "Pequeños bizcochos salados y crujientes",
+        "precio": 70,
+        "imagen": "https://www.quibeluma.com.ar/images/portfolio-panes-artesanales/panaderia-bizcochitos-de-grasa-full.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Pastafrola",
+        "descripcion": "Tarta de masa suave con membrillo",
+        "precio": 160,
+        "imagen": "https://www.lavoz.com.ar/resizer/Z15NH-IcgY-_QM-KaWQ9OPTOcR0=/0x0:0x0/980x640/filters:quality(80):format(webp)/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/ON2KRBPU5NGPFDDWKXXR3CDIAE.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Pan Baguette",
+        "descripcion": "Pan alargado y crujiente, de origen francés, ideal para acompañar comidas o hacer sándwiches.",
+        "precio": 70,
+        "imagen": "https://www.recetizate.com/img/uploads/recetas/20131208183128_4371.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "Donas",
+        "descripcion": "Deliciosas y esponjosas donas, cubiertas con una capa de glaseado y espolvoreadas con azúcar o decoradas con chocolate y chispas de colores. Perfectas para acompañar un café o como un antojo dulce a cualquier hora del día.",
+        "precio": 90,
+        "imagen": "https://cdn.britannica.com/38/230838-050-D0173E79/doughnuts-donuts.jpg"
+    },
+    {
+        "id": 17,
+        "nombre": "Rosquete",
+        "descripcion": "Galleta tradicional en forma de rosquilla, con sabor a anís.",
+        "precio": 50,
+        "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu1N4N-wA7e7kaLgnKL9tScw7WRsvWUdBnWzmVHdd4Ky9VoWfoeuS0nJpYpalGX61aeauqDQsg13lQOUawOMZiqHP7MPs_owvFZHr_n0fj2cbeAzc7J5BVuajesas6T6zQs3PN2LMtm4U/w1200-h630-p-k-no-nu/DSC_0004.JPG"
+    },
+    {
+        "id": 18,
+        "nombre": "Empanadillas de Cayote",
+        "descripcion": "Empanadillas dulces rellenas de dulce de cayote, típicas del noroeste argentino.",
+        "precio": 80,
+        "imagen": "https://azucarledesma.com/wp-content/uploads/2022/05/20231110-EmpanaditasCayote.jpg"
+    },
+    {
+        "id": 19,
+        "nombre": "Pan Negro",
+        "descripcion": "Pan integral hecho con harina de trigo y centeno, ideal para una dieta saludable.",
+        "precio": 60,
+        "imagen": "https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/2023-02/kinds-bread-pumpernickel%C2%A9iStock.jpg"
+    },
+    {
+        "id": 20,
+        "nombre": "Bola de Fraile",
+        "descripcion": "Bolitas de masa frita, espolvoreadas con azúcar y rellenas dulce de leche.",
+        "precio": 50,
+        "imagen": "https://www.rionegro.com.ar/wp-content/uploads/2023/07/bolas.jpg"
+    }
+]
